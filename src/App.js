@@ -22,19 +22,35 @@ f=false,d=document,vwoCodeEl=document.querySelector('#vwoCode'),code={use_existi
         {`<!-- [End VWO Async SmartCode -->`}
       </Helmet>
 
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React...
-        </a>
+      <header
+        className="App-header"
+        style={{
+          backgroundColor: "white",
+          height: "100vh",
+          border: "20px solid grey",
+          padding: "20px",
+        }}
+      >
+         <div style={{ marginTop: "100px" }}>
+          <input type="text" />
+
+          <button>Click1</button>
+        </div>
+
+        <div style={{ marginTop: "100px" }}>
+          <input type="text" />
+
+          <button>Click2</button>
+        </div>
+
+        <div className="buttons">
+          <button className="btn" style={{backgroundColor: "red",color: "white",fontSize: "20px"}}>Button 1</button>
+          <button className="btn" style={{backgroundColor: "green",color: "white",fontSize: "20px"}}>Button 2</button>
+          <button className="btn" style={{backgroundColor: "blue",color: "white",fontSize: "20px"}}>Button 3</button>
+          <button className="btn" style={{backgroundColor: "grey",color: "white",fontSize: "20px"}}>Button 4</button>
+          <button className="btn" style={{backgroundColor: "pink",color: "white",fontSize: "20px"}}>Button 5</button>
+          <button className="btn" style={{backgroundColor: "violet",color: "white",fontSize: "20px"}}>Button 6</button>
+        </div>
       </header>
     </div>
   );
