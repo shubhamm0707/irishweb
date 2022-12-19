@@ -31,16 +31,16 @@ f=false,d=document,vwoCodeEl=document.querySelector('#vwoCode'),code={use_existi
           padding: "20px",
         }}
       >
-         <div style={{ marginTop: "100px" }}>
-          <input type="text" />
+         
 
-          <button>Click1</button>
-        </div>
-
-        <div style={{ marginTop: "100px" }}>
+        <div style={{ marginTop: "300px" }}>
           <input type="text" />
 
           <button>Click2</button>
+        </div>
+
+        <div className="sticky">
+
         </div>
 
         <div className="buttons">
@@ -52,6 +52,7 @@ f=false,d=document,vwoCodeEl=document.querySelector('#vwoCode'),code={use_existi
           <button className="btn" style={{backgroundColor: "violet",color: "white",fontSize: "20px"}}>Button 6</button>
         </div>
       </header>
+      <div className="bottom"></div>
     </div>
   );
 }
